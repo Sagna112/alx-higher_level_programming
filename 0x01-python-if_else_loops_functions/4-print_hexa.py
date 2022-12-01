@@ -1,4 +1,3 @@
 #!/usr/bin/python3
-for count in range(99):
-    print("{} = {}".format(count, hex(count)))
-
+for num in range(99):
+    print("{:d} = {:s}".format(num, hex(num)))
